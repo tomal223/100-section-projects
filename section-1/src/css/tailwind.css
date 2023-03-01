@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+@layer base {
+    html {
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+input::placeholder,
+textarea::placeholder,
+body #preview-container .hl-app #_builder-form input.form-control:not(textarea)::placeholder,
+body #preview-container .hl-app #_builder-form input.countryphone::placeholder {
+    font-family: 'Montserrat', sans-serif !important;
+}
+ 

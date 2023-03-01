@@ -1,0 +1,14 @@
+{
+  "name": "section-1",
+  "version": "1.0.0",
+  "description": "Header Section Design",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./dist/style.css --watch"
+  },
+  "author": "tomal223",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
